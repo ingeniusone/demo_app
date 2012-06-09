@@ -8,7 +8,7 @@ gem 'rails', '3.2.3'
 
 # Gemfile
 group :development, :test do
-  gem 'sqlite3', '>= 1.3.5'
+  gem 'sqlite3'
 end
 
 group :production do

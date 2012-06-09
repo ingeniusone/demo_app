@@ -7,11 +7,7 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3', :group => :development
 
-     group :production do
-           gem "pg"
-     end
-# Skip attempting to install the pg gem
-
+   
 
 # Gems used only for assets and not required
 # in production environments by default.

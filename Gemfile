@@ -15,6 +15,9 @@ group :production do
   gem 'pg'
 end
 
+source :gemcutter
+gem 'sinatra', '1.0'
+
    
 
 # Gems used only for assets and not required
